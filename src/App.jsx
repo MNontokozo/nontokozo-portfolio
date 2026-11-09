@@ -4,32 +4,32 @@ import { Menu, X, Mail, ExternalLink, Code2, Database, Server, Headphones } from
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const projects = [
-    {
-      title: "NAMTECH Innovations",
-      description: "Company website and digital solutions for small businesses. Built with HTML, CSS, JavaScript and WordPress. Includes hosting, maintenance and client support.",
-      tech: ["HTML", "CSS", "JavaScript", "WordPress"],
-      link: "https://www.namtechinnovations.co.za",
-      github: "https://github.com/MNontokozo/NAMTECH-INNOVATIONS",
-      status: "Live"
-    },
-    {
-      title: "SupportDesk Pro",
-      description: "Full-stack IT Support Ticket System with ticket management, knowledge base and basic reporting. Designed for Application Support and Service Desk roles.",
-      tech: ["React", "Node.js", "Express", "MySQL"],
-      link: "#",
-      github: "#",
-      status: "In Development"
-    },
-    {
-      title: "Farm Digitalisation Systems",
-      description: "Supported development of systems that streamline farming operations, improve data management and enhance operational efficiency (Bigro).",
-      tech: ["JavaScript", "Node.js", "SQL", "REST APIs"],
-      link: "#",
-      github: "#",
-      status: "Professional Work"
-    }
-  ]
+const projects = [
+  {
+    title: "SupportDesk Pro",
+    description: "Full-stack IT Support Ticket System with user authentication, ticket creation, status workflow, live statistics dashboard and filtering. Built for Application Support and Service Desk roles.",
+    tech: ["React", "Node.js", "Express", "MySQL", "JWT", "Tailwind"],
+    link: "#",
+    github: "https://github.com/MNontokozo/SupportDesk-Pro",
+    status: "Completed"
+  },
+  {
+    title: "NAMTECH Innovations",
+    description: "Company website and digital solutions for small businesses. Built with HTML, CSS, JavaScript and WordPress. Includes hosting, maintenance and client support.",
+    tech: ["HTML", "CSS", "JavaScript", "WordPress"],
+    link: "https://www.namtechinnovations.co.za",
+    github: "https://github.com/MNontokozo/NAMTECH-INNOVATIONS",
+    status: "Live"
+  },
+  {
+    title: "Farm Digitalisation Systems",
+    description: "Supported development of systems that streamline farming operations, improve data management and enhance operational efficiency (Bigro).",
+    tech: ["JavaScript", "Node.js", "SQL", "REST APIs"],
+    link: "#",
+    github: "#",
+    status: "Professional Work"
+  }
+]
 
   const skills = [
     { category: "Frontend", items: ["React", "Angular", "JavaScript", "HTML5", "CSS3", "Tailwind"] },
